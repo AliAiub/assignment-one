@@ -8,17 +8,17 @@ h1{
 .orange-color{
   color: orange;
 }
-.dispaly-section{
+.explor-section{
   display: flex;
 }
 .border-side{
   border-left: 4px solid tomato;
 }
-.half-width{
+.explor-width{
   width: 50%;
   padding-left: 10%;
 }
-.half-width img{
+.explor-width img{
   width: 85%;
   padding-bottom: 10%;
 }
@@ -32,11 +32,15 @@ h1{
   color: white;
   font: weight 500;
   }
+  .mission-section{
+    display: flex;
+  }
   .center{
     text-align: center;
   }
   .three-section{
     padding-left: 8%;
+    padding-bottom: 10%;
   }
   .one-third{
     width: 30%;
@@ -61,4 +65,45 @@ h1{
 #goals{
   background-color: rgb(235, 232, 210);
   border-radius: 20px;
+}
+.develop-section{
+  display: flex;
+  padding-left: 10%;
+}
+.develop-width{
+  width: 40%;
+
+}
+.develop-width img{
+  width: 80%;
+  padding-bottom: 30%;
+}
+.read-button{
+  background-color: orangered;
+  padding: 10px 50px;
+  margin-top: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font: weight 500;
+  }
+.community-section{
+  display: flex;
+}
+.community-width{
+  width: 40%;
+  padding-left: 10%;
+}
+.community-width img{
+  width: 70%;
+  padding-bottom: 10%;
+}
+footer{
+  background-color: black;
+  text-align: center;
+  background-position: 10px 50px;
+  color: white;
+}
+.last-color{
+  color: orangered;
 }
