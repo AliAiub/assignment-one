@@ -8,7 +8,7 @@ h1{
 .orange-color{
   color: orange;
 }
-section{
+.dispaly-section{
   display: flex;
 }
 .border-side{
@@ -17,7 +17,6 @@ section{
 .half-width{
   width: 50%;
   padding-left: 10%;
-  
 }
 .half-width img{
   width: 85%;
@@ -32,5 +31,34 @@ section{
   text-decoration: none;
   color: white;
   font: weight 500;
-  
+  }
+  .center{
+    text-align: center;
+  }
+  .three-section{
+    padding-left: 8%;
+  }
+  .one-third{
+    width: 30%;
+    padding-left: 4%;
+    padding-right: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .one-third img{
+    width: 80%;
+    padding-left: 10%;
+    text-align: left;
+  }
+#mission{
+  background-color: honeydew;
+  border-radius: 20px;
+}
+#vission{
+  background-color: lightgray ;
+  border-radius: 20px;
+}
+#goals{
+  background-color: rgb(235, 232, 210);
+  border-radius: 20px;
 }
