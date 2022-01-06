@@ -1,12 +1,12 @@
 body{
   font-family: 'Playfair Display', serif;
-
+margin: 0px;
 }
 h1{
   font-size: 50px;
 }
 .orange-color{
-  color: orange;
+  color:orange ;
 }
 .explor-section{
   display: flex;
@@ -65,17 +65,32 @@ h1{
 #goals{
   background-color: rgb(235, 232, 210);
   border-radius: 20px;
+  margin-right: 80px;
+}
+.left-banner{
+  margin-left: 70px;
+background-image: url(images/shapes/shape-1.png);
+background-position: left top;
+background-repeat: no-repeat;
+background-size: 200px 200px;
 }
 .develop-section{
   display: flex;
   padding-left: 10%;
+}
+.right-banner{
+margin-right: 70px;
+  background-image: url(images/shapes/shape-1.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
 }
 .develop-width{
   width: 40%;
 
 }
 .develop-width img{
-  width: 80%;
+  width: 90%;
   padding-bottom: 30%;
 }
 .read-button{
@@ -95,15 +110,26 @@ h1{
   padding-left: 10%;
 }
 .community-width img{
-  width: 70%;
+  width: 80%;
+  padding-bottom: 30%;
+}
+.cource-section{
+  display: flex;
+}
+.cource-width{
+  width: 40%;
+  padding-left: 10%;
+  padding-right: 5%;
   padding-bottom: 10%;
 }
+.cource-width img{
+  width: 90%;
+
+}
+
 footer{
   background-color: black;
   text-align: center;
   background-position: 10px 50px;
   color: white;
-}
-.last-color{
-  color: orangered;
 }
